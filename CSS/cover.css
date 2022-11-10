@@ -1,8 +1,14 @@
+.outer_box{
+    background-color: #789;
+    padding-top: 20px;
+    height: 1080px;
+}
+
 .outer_box .content_main{
     width: 80%;
     height: 950px;
     background: url(../image/background.jpg);
-    margin: 20px auto;
+    margin: 0px auto;
     text-align: center;
     padding-top: 100px;
 }

@@ -13,7 +13,9 @@ td{
 }
 
 .outer_box{
-    height: 1000px;
+    background-color: #789;
+    padding-top: 20px;
+    height: 1050px;
 }
 
 .outer_box .content_main{
@@ -26,6 +28,7 @@ td{
     height: 900px;
     float: left;
     background-color: #ebebeb;
+    border-bottom: 1px solid #fff;
 }
 
 .outer_box .content_main .content_main_left .content_main_left_top{
@@ -64,11 +67,14 @@ td{
 }
 
 .outer_box .content_main .content_main_right{
-    width: 55%;
+    width: 60%;
+    box-sizing: border-box;
     height: 900px;
     float: left;
     background-color: #fff;
     padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .outer_box .content_main .content_main_right .content_item{
@@ -90,7 +96,6 @@ td{
 .outer_box .content_main .content_main_bottom{
     width: 100%;
     line-height: 60px;
-    margin-top: 5px;
     float: left;
     background-color: #ebebeb;
 }
